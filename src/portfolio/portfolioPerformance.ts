@@ -21,6 +21,7 @@ export function calculatePortfolioPerformance(
 
     const performanceSummary = summaries.find(s => s.check)?.text || "Status unknown";
 
+
     return {
         initialInvestment,
         currentValue,

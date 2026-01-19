@@ -12,5 +12,14 @@ app.get("/health", (req: Request, res: Response) => {
     })
 })
 
+//Interface
+export interface PortfolioResult {
+    initialInvestment: number;
+    currentValue: number;
+    profitOrLoss: number;
+    percentageChange: number;
+    performanceSummary: string;
+}
+
 
 //export default app;
